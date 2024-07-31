@@ -1,0 +1,57 @@
+[type = "submit"] {
+    margin-top: 25px;
+    font-size: medium;
+    padding: 7px 10px 7px 10px;
+    background-color: rgb(249, 249, 249);
+    border: none;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+[type = "text"] {
+    border-radius: 50px;
+    height: 40px;
+    width: 600px; 
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+a {
+    color: grey;
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+div {
+    display: flex;
+    justify-content: right;
+}
+
+form {
+    text-align: center;
+}
+
+img {
+    height: 250px
+}
+
+#imgpos {
+    justify-content: center; 
+    margin: 200px auto 20px auto; 
+}
+
+input[type = "text"]:focus::placeholder {
+    color: white;
+}
+
+input[type = "text"]:focus {
+    border: 3px solid rgb(0, 124, 249);
+}
+
+input[type = "submit"]:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+
+
+

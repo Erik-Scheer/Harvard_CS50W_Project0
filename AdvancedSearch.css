@@ -1,0 +1,132 @@
+h1 {
+    padding-bottom: 15px;
+    margin-left: 43px;
+    color: crimson;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+}
+
+img {
+    height: 40px; 
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+div {
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+label {
+    margin-right: 35px; 
+    display: block;
+}
+
+#formular {
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+p {
+    margin-top: 50px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: arial, sans-serif;
+}
+
+[for = "as_nhi"] {
+    margin-left: 35px;
+}
+
+ div > div, form > div {
+    border: none;
+}
+
+#gridcontainer {
+    display: grid;
+    grid-template-columns: 25%, 55%, 20%;
+    grid-template-areas: "labels inputs infos .";
+    width: 65%;
+}
+
+[type="text"] {
+    display: block;
+    width: 98%;
+    height: 25px; 
+}
+
+#labels {
+    grid-area: labels;
+}
+
+#inputs {
+    grid-area: inputs;
+}
+
+#infos {
+    grid-area: infos;
+}
+
+.inline {
+    display: inline;
+}
+
+label {
+    margin-bottom: 30px;
+}
+
+[name = "as_nlo"], [name = "as_nhi"] {
+    width: 39.5%;
+}
+
+div > input {
+    margin-bottom: 15px;
+}
+
+.flexcontainer {
+    display: flex !important;
+    justify-content: right !important;
+    margin-top: 15px;
+}
+
+[type = "submit"] {
+    font-size: large;
+    color: white;
+    background-color: rgb(0, 124, 249);
+    border: 4px;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+}
+
+#ToDo {
+    margin-left: 33.3%;
+}
+
+[id = "infos"] > label {
+    font-size: medium;
+    margin-left: 50px;
+    margin-top: -2px;
+}
+
+input[type="text"]:focus {
+    border: solid  3px rgb(0, 124, 249) !important; 
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(0, 101, 203);
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    margin-top: -5px;
+}
+
+[id = infos] > [for = "as_eq"] {
+    margin-bottom: 12px;
+}
+
+[class = "flexcontainer"] > input {
+    margin-right: 5px;
+}
